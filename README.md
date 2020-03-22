@@ -12,7 +12,16 @@ Data from published updates by the Spanish Ministry of Health, detailing the num
 
 ## Dataset
 
-* [`processed/`](processed/): Raw data as extracted by Tabula
-* [`consolidated/`](consolidated/): Consolidated `diagnosed.csv`, `icu.csv` and `deaths.csv` data from the data in [`processed/`](processed/).
+* [`extracted_data/`](extracted_data/): Raw data as extracted by Tabula
+* [`consolidated/`](consolidated/): Consolidated `diagnosed.csv`, `icu.csv` and `deaths.csv` data from the data in [`extracted_data/`](extracted_data/).
 
+## How to contribute
+
+1. Visit the  [Health Ministry webpage](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm) and click on the link "Actualización nºXX: enfermedad por SARS-CoV-2 (COVID-19)"
+2. Download the PDF file to your local host
+3. Install [Tabula](https://github.com/tabulapdf/tabula) and follow the instructions to extract the table containing the daily update
+4. Extract the data to a CSV, double check the format doesn't change and
+5. Run [notebooks/000_consolidate_data.ipynb](notebooks/000_consolidate_data.ipynb) to update the consolidated files
+6. Inspect the data to make sure it makes sense [notebooks/001_plots.ipynb](notebooks/001_plots.ipynb)
+7. Commit and push the resulting consolidated files
 
