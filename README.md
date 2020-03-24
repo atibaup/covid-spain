@@ -2,7 +2,7 @@
 
 Data from published updates by the Spanish Ministry of Health, detailing the number of diagnosed cases, ICU admissions and deaths, by Autonmous Region (Comunidad Autónoma).
 
-**Up-to-date as of**: 23/03/2020 at 19h
+**Up-to-date as of**: 24/03/2020 at 19h
 
 ## Read first
 
