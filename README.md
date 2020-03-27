@@ -4,6 +4,9 @@ Data from published updates by the Spanish Ministry of Health, detailing the num
 
 **Up-to-date as of**: 27/03/2020 at 19h
 
+**UPDATE!!!**: I've been told that the Ministry of Health has recently started publishing the data feed via Instituto de Salud Carlos III: you can find the data here: [https://covid19.isciii.es/resources/serie_historica_acumulados.csv](https://covid19.isciii.es/resources/serie_historica_acumulados.csv)
+
+
 ## Read first
 
 * The data has been extracted from the "daily" updates published by the Spanish Ministry of Health [in this webpage](https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm)
